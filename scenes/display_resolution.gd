@@ -81,6 +81,7 @@ func _on_KeepScreenOn_toggled(button_pressed):
 	#update_screen(resolutions[$Resolution.selected])
 
 
+# https://docs.godotengine.org/en/3.1/tutorials/viewports/multiple_resolutions.html
 func update_screen(resolution):
 	if OS.window_fullscreen:
 		OS.window_size = OS.get_real_window_size()
